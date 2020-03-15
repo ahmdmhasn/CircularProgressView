@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		0272C296241E58B2005BFF7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0272C295241E58B2005BFF7C /* AppDelegate.swift */; };
-		0272C298241E58B2005BFF7C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0272C297241E58B2005BFF7C /* SceneDelegate.swift */; };
 		0272C29A241E58B2005BFF7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0272C299241E58B2005BFF7C /* ViewController.swift */; };
 		0272C29D241E58B2005BFF7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0272C29B241E58B2005BFF7C /* Main.storyboard */; };
 		0272C29F241E58B6005BFF7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0272C29E241E58B6005BFF7C /* Assets.xcassets */; };
 		0272C2A2241E58B6005BFF7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0272C2A0241E58B6005BFF7C /* LaunchScreen.storyboard */; };
+		0272C2AA241E5A13005BFF7C /* CircleProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0272C2A9241E5A13005BFF7C /* CircleProgressView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0272C292241E58B2005BFF7C /* CircularProgressViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircularProgressViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0272C295241E58B2005BFF7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0272C297241E58B2005BFF7C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0272C299241E58B2005BFF7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0272C29C241E58B2005BFF7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0272C29E241E58B6005BFF7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0272C2A1241E58B6005BFF7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0272C2A3241E58B6005BFF7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0272C2A9241E5A13005BFF7C /* CircleProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProgressView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				0272C295241E58B2005BFF7C /* AppDelegate.swift */,
-				0272C297241E58B2005BFF7C /* SceneDelegate.swift */,
 				0272C299241E58B2005BFF7C /* ViewController.swift */,
 				0272C29B241E58B2005BFF7C /* Main.storyboard */,
 				0272C29E241E58B6005BFF7C /* Assets.xcassets */,
 				0272C2A0241E58B6005BFF7C /* LaunchScreen.storyboard */,
 				0272C2A3241E58B6005BFF7C /* Info.plist */,
+				0272C2A9241E5A13005BFF7C /* CircleProgressView.swift */,
 			);
 			path = CircularProgressViewDemo;
 			sourceTree = "<group>";
@@ -140,7 +140,7 @@
 			files = (
 				0272C29A241E58B2005BFF7C /* ViewController.swift in Sources */,
 				0272C296241E58B2005BFF7C /* AppDelegate.swift in Sources */,
-				0272C298241E58B2005BFF7C /* SceneDelegate.swift in Sources */,
+				0272C2AA241E5A13005BFF7C /* CircleProgressView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +291,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.victorylink.CircularProgressViewDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = me.ahmdmhasn.CircularProgressViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -309,7 +309,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.victorylink.CircularProgressViewDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = me.ahmdmhasn.CircularProgressViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
